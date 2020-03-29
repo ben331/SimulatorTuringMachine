@@ -54,17 +54,17 @@ class TuringMachineTest {
 	@Test
 	public void testShowLetter1() {
 		setup1();
-		assertEquals(tm.showHead('0'),'#');
-		assertEquals(tm.showHead('1'),'#');
-		assertEquals(tm.showHead('2'),'#');
+		assertEquals(tm.showHead('0'),"#");
+		assertEquals(tm.showHead('1'),"#");
+		assertEquals(tm.showHead('2'),"#");
 	}
 	
 	@Test
 	public void testShowLetter2() {
-		setup3();
-		assertEquals(tm.showHead('0'),'A');
-		assertEquals(tm.showHead('1'),'B');
-		assertEquals(tm.showHead('2'),'C');
+		setup4();
+		assertEquals(tm.showHead('0'),"A");
+		assertEquals(tm.showHead('1'),"B");
+		assertEquals(tm.showHead('2'),"C");
 	}
 	
 	@Test
